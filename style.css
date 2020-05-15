@@ -1,0 +1,159 @@
+html{
+        
+    width:100%;
+    overflow-x:hidden;
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: Microsoft Yahei;
+}
+
+a{
+    text-decoration:none; 
+}
+
+li {
+    display: block;
+    height: 40px;
+    line-height: 35px;
+    overflow: hidden;
+    }
+
+li i {
+    background: url(ti_01.png);
+    width: 20px;
+    height: 35px;
+    float: left;
+}
+
+#head{
+    display: flex;
+    height: 50px;
+    width: auto;
+    justify-content: space-around;
+}
+
+#head a{
+    color: black;
+    text-align: center;
+    line-height:50px;
+    margin-right: 20px;
+}
+
+.tel{
+    display: inline-block;
+    height: 30px;
+    width: 20px;
+    background: url(ti_01.png);
+    background-position: 0px,0;
+    margin-top: 10px;
+}
+
+
+#back{
+    background: url(back_02.png);
+    background-position: -186px 0;
+    height: 410px;
+    width: 1920px;
+}
+
+.title{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 260px;
+    top: 125px;
+}
+
+.button{
+    margin-top: 25px;
+    height: 40px;
+    width: 125px;
+    color:#bec0c6;
+    font-size:16px;
+    border: 1px solid #bec0c6;
+    border-radius: 4px;
+    background-color: #ffffff00;
+}
+
+#buttons{
+    position: relative;
+    height: 10px;
+    width:100px;
+    z-index:2;
+    bottom:-149px ;
+    left:710px;
+}
+
+#buttons span{
+    cursor: pointer;
+    float: left; 
+    border: none; 
+    width: 10px; height: 10px; border-radius: 50%;
+    background: red; 
+    margin-left: 8px;
+}
+
+#buttons .on{
+    border-width:0;
+    background-color: white;
+}
+
+#fun{
+    display:flex;
+    width: 100%;
+    height: 300px;
+    background-color: #d9251e;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.lock{
+    position: relative;
+    background: url(sp.png);
+    background-repeat: no-repeat;
+    background-position: -60px,0;
+    width: 75px;
+    height: 75px;
+}
+
+.demon{
+    position: relative;
+    background: url(sp.png);
+    background-repeat: no-repeat;
+    background-position: -164px,0;
+    width: 75px;
+    height: 75px;
+}
+
+.map{
+    position: relative;
+    background: url(sp.png);
+    background-repeat: no-repeat;
+    background-position: -260px,0;
+    width: 75px;
+    height: 75px;
+}
+
+.book{
+    position: relative;
+    background: url(sp.png);
+    background-repeat: no-repeat;
+    background-position: -368px,0;
+    width: 75px;
+    height: 75px;
+}
+
+.star{
+    display: inline-block;
+    background: url(sp.png);
+    background-repeat: no-repeat;
+    background-position: -20px,0;
+    width: 25px;
+    height: 20px;
+}
